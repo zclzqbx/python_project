@@ -1,6 +1,6 @@
-#Python Project
+# Python Project
 ---
-##logex.py
+## logex.py
 ---
 
 write log info file and stdout,you need design log name ,path and output level!
