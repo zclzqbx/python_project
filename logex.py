@@ -16,7 +16,7 @@ class Log:
     def __init__(self, module='defautl_module', path='/home/walker/Log/', level=logging.DEBUG):
          # 创建一个logger
         self.logger = logging.getLogger(module)
-        self.logger.setLevel(logging.DEBUG)
+        self.logger.setLevel(level)
 
         is_dir_exist = os.path.exists(path)
         if not is_dir_exist:
